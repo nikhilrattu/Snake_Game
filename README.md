@@ -1,23 +1,79 @@
-## Description
-Classic Snake Game built using Python Turtle graphics  
-Player controls the snake to collect food and grow longer  
-Game tracks score, detects collisions, and resets on game over  
-Structured using multiple modules and OOP principles  
+# Snake Game
+
+<p align="center">
+  <img src="https://media.giphy.com/media/l378BzHA5FwWFXVSg/giphy.gif" width="500">
+</p>
+
+A classic Snake Game developed using Python Turtle Graphics with a modular Object-Oriented Programming structure.  
+The game features real-time movement, collision detection, score tracking, and dynamic snake growth.
+
+---
+
+## Features
+
+- Smooth snake movement system
+- Real-time keyboard controls
+- Food spawning and collision detection
+- Dynamic snake extension
+- Scoreboard system
+- Wall and tail collision handling
+- Automatic game reset functionality
+- Modular code architecture
 
 ---
 
 ## Concepts Used
-- Python Turtle graphics for game rendering  
-- Object-Oriented Programming (OOP) with multiple classes  
-- Modules for game separation (`snake.py`, `food.py`, `scoreboard.py`)  
-- Keyboard event handling for controls  
-- Loops and collision detection logic  
-- Score tracking and game state management  
+
+- Object-Oriented Programming (OOP)
+- Python Turtle Graphics
+- Event Handling & Keyboard Bindings
+- Collision Detection Logic
+- Game Loop Management
+- Modular Programming Structure
 
 ---
 
-## Example
-- Snake moves continuously on screen  
-- Arrow keys control movement  
-- Eating food → snake grows + score increases  
-- Hitting wall or tail → game resets  
+## Project Structure
+
+| File | Purpose |
+|------|----------|
+| `main.py` | Controls the main game loop |
+| `snake.py` | Handles snake creation and movement |
+| `food.py` | Manages food generation and refresh |
+| `scoreboard.py` | Tracks and updates score |
+
+---
+
+## Gameplay
+
+1. The snake moves continuously across the screen  
+2. Arrow keys control the snake direction  
+3. Eating food increases both score and snake length  
+4. Collision with walls or the snake’s tail resets the game  
+
+---
+
+## Controls
+
+| Key | Action |
+|-----|--------|
+| `↑` | Move Up |
+| `↓` | Move Down |
+| `←` | Move Left |
+| `→` | Move Right |
+
+---
+
+## Technologies Used
+
+- Python
+- Turtle Module
+- Time Module
+
+---
+
+## Preview
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
+</p>
